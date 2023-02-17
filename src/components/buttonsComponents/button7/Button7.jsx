@@ -1,8 +1,9 @@
 import React from 'react'
+import { Boton } from './ButtonStyled7'
 
 const Button7 = () => {
   return (
-    <div>Button7</div>
+    <Boton>Hover me</Boton>
   )
 }
 

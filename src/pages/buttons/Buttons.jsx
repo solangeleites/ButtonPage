@@ -7,7 +7,7 @@ import Button4 from '../../components/buttonsComponents/button4/Button4'
 import Button5 from '../../components/buttonsComponents/button5/Button5'
 import Button6 from '../../components/buttonsComponents/button6/Button6'
 import Button7 from '../../components/buttonsComponents/button7/Button7'
-
+import Button8 from '../../components/buttonsComponents/button8/Button8'
 
 const Buttons = () => {
   return (
@@ -44,7 +44,9 @@ const Buttons = () => {
       <Box>
     <Button7 />
       </Box>
-      <Box>8</Box>
+      <Box>
+        <Button8 />
+      </Box>
     </Container>
   )
 }
